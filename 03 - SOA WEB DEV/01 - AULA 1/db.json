@@ -1,0 +1,11 @@
+{
+    "enderecos":[
+        {
+            "id":1,
+            "cep":"01001-001",
+            "Logradouro":"Rua XXXXX",
+            "Bairro":"Vila xxxx",
+            "Estado":"SP"
+        }
+    ]
+}
