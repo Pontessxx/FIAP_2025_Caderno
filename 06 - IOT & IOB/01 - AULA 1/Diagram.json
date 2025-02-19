@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "author": "Anonymous maker",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "wokwi-breadboard-half", "id": "bb1", "top": -147, "left": -35.6, "attrs": {} },
+      { "type": "wokwi-arduino-uno", "id": "uno", "top": 96.6, "left": -19.8, "attrs": {} },
+      { "type": "wokwi-dht22", "id": "dht1", "top": -143.7, "left": -15, "attrs": {} },
+      { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": -104.1, "left": 43.9, "attrs": {} },
+      {
+        "type": "wokwi-photoresistor-sensor",
+        "id": "ldr1",
+        "top": -211.5,
+        "left": 167.3,
+        "rotate": 90,
+        "attrs": {}
+      }
+    ],
+    "connections": [
+      [ "uno:GND.1", "bb1:bn.1", "black", [ "v-19.2", "h-97.3" ] ],
+      [ "uno:5V", "bb1:bp.1", "red", [ "v19.1", "h-207.4", "v-259.2" ] ],
+      [ "bb1:2b.h", "bb1:bp.2", "red", [ "v38.4", "h9.6" ] ],
+      [ "bb1:5b.h", "bb1:bn.4", "black", [ "v0" ] ],
+      [ "bb1:3b.h", "uno:2", "blue", [ "v86.4", "h201.6" ] ],
+      [ "bb1:14b.i", "bb1:bp.11", "red", [ "v0" ] ],
+      [ "bb1:17b.j", "bb1:bn.14", "black", [ "v0" ] ],
+      [ "bb1:15b.j", "uno:7", "magenta", [ "v76.8", "h38.4" ] ],
+      [ "bb1:16b.i", "uno:8", "purple", [ "v67.2", "h9.6" ] ],
+      [ "bb1:30t.c", "bb1:bp.25", "red", [ "v0" ] ],
+      [ "bb1:29t.c", "bb1:bn.24", "black", [ "v0" ] ],
+      [ "bb1:27t.b", "uno:A0", "gold", [ "v163.2", "h48", "v240", "h-105.6" ] ],
+      [ "dht1:VCC", "bb1:2b.f", "", [ "$bb" ] ],
+      [ "dht1:SDA", "bb1:3b.f", "", [ "$bb" ] ],
+      [ "dht1:NC", "bb1:4b.f", "", [ "$bb" ] ],
+      [ "dht1:GND", "bb1:5b.f", "", [ "$bb" ] ],
+      [ "ultrasonic1:VCC", "bb1:14b.h", "", [ "$bb" ] ],
+      [ "ultrasonic1:TRIG", "bb1:15b.h", "", [ "$bb" ] ],
+      [ "ultrasonic1:ECHO", "bb1:16b.h", "", [ "$bb" ] ],
+      [ "ultrasonic1:GND", "bb1:17b.h", "", [ "$bb" ] ],
+      [ "ldr1:VCC", "bb1:30t.a", "", [ "$bb" ] ],
+      [ "ldr1:GND", "bb1:29t.a", "", [ "$bb" ] ],
+      [ "ldr1:DO", "bb1:28t.a", "", [ "$bb" ] ],
+      [ "ldr1:AO", "bb1:27t.a", "", [ "$bb" ] ]
+    ],
+    "dependencies": {}
+  }
