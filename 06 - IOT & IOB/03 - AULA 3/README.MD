@@ -10,5 +10,5 @@ no cmd basta digitar o comando
 
 ao gerar tudo correto basta ir para a porta ![http://127.0.0.1:1880/](http://127.0.0.1:1880/) e seguir os nossos passos:
 
-![Esquema do fluxo]('./node_red_back.png')
-![Esquema do fluxo]('./dashboard.png')
+<img src="./node_red_back.png" alt="Minha imagem" width="auto" />
+<img src="./dashboard.png" alt="Minha imagem" width="auto" />
