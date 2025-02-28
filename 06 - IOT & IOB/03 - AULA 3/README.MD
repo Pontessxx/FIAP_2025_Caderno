@@ -11,4 +11,4 @@ no cmd basta digitar o comando
 ao gerar tudo correto basta ir para a porta ![http://127.0.0.1:1880/](http://127.0.0.1:1880/) e seguir os nossos passos:
 
 <img src="./node_red_back.png" alt="Minha imagem" width="auto" />
-<img src="./dashboard.png" alt="Minha imagem" width="auto" />
+<img src="https://raw.githubusercontent.com/Pontessxx/FIAP_2025_Caderno/refs/heads/main/06%20-%20IOT%20%26%20IOB/03%20-%20AULA%203/dashboard.png" alt="Minha imagem" width="auto" />
