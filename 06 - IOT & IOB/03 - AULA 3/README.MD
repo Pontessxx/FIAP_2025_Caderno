@@ -1,0 +1,14 @@
+# Sensor de proximidade e Led ON/OFF serial input
+
+Utilizamos o `node-red` para criar o dashboard e poder criar os botões responsaveis por ligar e desligar o led
+*Lembre de instalar as bibliotecas no IDE*
+no cmd basta digitar o comando 
+
+```cmd
+    node-red
+```
+
+ao gerar tudo correto basta ir para a porta ![http://127.0.0.1:1880/](http://127.0.0.1:1880/) e seguir os nossos passos:
+
+![Esquema do fluxo]('./node_red_back.png')
+![Esquema do fluxo]('./dashboard.png')
