@@ -1,0 +1,29 @@
+[
+    {
+        "id": "3bf5990bfb08a64f",
+        "type": "change",
+        "z": "c63c477494809038",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Distancia",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 910,
+        "y": 380,
+        "wires": [
+            [
+                "77c1f5bcca02a90c"
+            ]
+        ]
+    }
+]
