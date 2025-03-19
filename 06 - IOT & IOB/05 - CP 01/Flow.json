@@ -1,0 +1,242 @@
+[
+    {
+        "id": "c63c477494809038",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "979a55653d5c3e26",
+        "type": "change",
+        "z": "c63c477494809038",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Temperatura_F",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 320,
+        "wires": [
+            [
+                "1fcaafcb8c48e5c5"
+            ]
+        ]
+    },
+    {
+        "id": "259ae6f9be5bad4b",
+        "type": "json",
+        "z": "c63c477494809038",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 590,
+        "y": 400,
+        "wires": [
+            [
+                "979a55653d5c3e26",
+                "8e7bf99e13d416ca"
+            ]
+        ]
+    },
+    {
+        "id": "1fcaafcb8c48e5c5",
+        "type": "ui_gauge",
+        "z": "c63c477494809038",
+        "name": "",
+        "group": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1150,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "f543a0e1dd598190",
+        "type": "ui_gauge",
+        "z": "c63c477494809038",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00B500",
+            "#E6E600",
+            "#CA3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1150,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "8e7bf99e13d416ca",
+        "type": "change",
+        "z": "c63c477494809038",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.Umidade",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 460,
+        "wires": [
+            [
+                "f543a0e1dd598190"
+            ]
+        ]
+    },
+    {
+        "id": "87d7f0184e021970",
+        "type": "serial in",
+        "z": "c63c477494809038",
+        "name": "",
+        "serial": "",
+        "x": 410,
+        "y": 380,
+        "wires": [
+            [
+                "259ae6f9be5bad4b"
+            ]
+        ]
+    },
+    {
+        "id": "0dba69ee33479d49",
+        "type": "serial out",
+        "z": "c63c477494809038",
+        "x": 570,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "fc20247872208aba",
+        "type": "ui_button",
+        "z": "c63c477494809038",
+        "name": "",
+        "group": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "90",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "90",
+        "payloadType": "str",
+        "topic": "90",
+        "topicType": "msg",
+        "x": 390,
+        "y": 220,
+        "wires": [
+            [
+                "0dba69ee33479d49"
+            ]
+        ]
+    },
+    {
+        "id": "94e1a1b9f27787b6",
+        "type": "ui_button",
+        "z": "c63c477494809038",
+        "name": "",
+        "group": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "0",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "str",
+        "topic": "0",
+        "topicType": "msg",
+        "x": 390,
+        "y": 180,
+        "wires": [
+            [
+                "0dba69ee33479d49"
+            ]
+        ]
+    },
+    {
+        "id": "c7f1308e02a204ea",
+        "type": "ui_button",
+        "z": "c63c477494809038",
+        "name": "",
+        "group": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "180",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "180",
+        "payloadType": "str",
+        "topic": "180",
+        "topicType": "msg",
+        "x": 410,
+        "y": 280,
+        "wires": [
+            [
+                "0dba69ee33479d49"
+            ]
+        ]
+    }
+]
