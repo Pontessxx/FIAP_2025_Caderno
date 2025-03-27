@@ -1,0 +1,15 @@
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\obj\Debug\net8.0\02 - AULA 2.GeneratedMSBuildEditorConfig.editorconfig
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\obj\Debug\net8.0\02 - AULA 2.AssemblyInfoInputs.cache
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\obj\Debug\net8.0\02 - AULA 2.AssemblyInfo.cs
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\obj\Debug\net8.0\02 - AULA 2.csproj.CoreCompileInputs.cache
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\obj\Debug\net8.0\02 - AULA 2.sourcelink.json
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\bin\Debug\net8.0\02 - AULA 2.exe
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\bin\Debug\net8.0\02 - AULA 2.deps.json
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\bin\Debug\net8.0\02 - AULA 2.runtimeconfig.json
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\bin\Debug\net8.0\02 - AULA 2.dll
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\bin\Debug\net8.0\02 - AULA 2.pdb
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\obj\Debug\net8.0\02 - AULA 2.dll
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\obj\Debug\net8.0\refint\02 - AULA 2.dll
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\obj\Debug\net8.0\02 - AULA 2.pdb
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\obj\Debug\net8.0\02 - AULA 2.genruntimeconfig.cache
+E:\FIAP\04 - C# SOF DEV\02 - AULA 2\obj\Debug\net8.0\ref\02 - AULA 2.dll
